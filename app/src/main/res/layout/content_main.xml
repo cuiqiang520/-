@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawId"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.cuiqiang123.day29drawerlayout.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contentId"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageId"
+            android:src="@drawable/jiahe"
+            />
+    </LinearLayout>
+    <ListView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#0aa"
+        android:id="@+id/listviewId">
+    </ListView>
+
+</android.support.v4.widget.DrawerLayout>
